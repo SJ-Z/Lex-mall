@@ -1,0 +1,125 @@
+html{
+  font-size: 20px;
+}
+.login{
+  position: relative;
+  height: 100vh;
+  width: 18.75rem;
+  overflow: hidden;
+}
+.logo{
+  margin: 6rem auto 2rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50% 50%;
+  overflow: hidden;
+  background-color: #00AEFF;
+}
+.logo>img{
+  margin:auto;
+  width: 4rem;
+}
+
+.login-form, .sign-form{
+  margin: auto;
+  width: 15rem;
+  border: .1rem solid #00aeff;
+  border-radius: 1rem;
+  overflow: hidden;
+  font: 1rem/2rem 'sans-serlf';
+}
+
+.login-form input,.sign-form input{
+  width: 100%;
+  outline: none;
+  border-width:  0 0 .1rem;
+  border-color: #00aeff;
+  padding: .2rem .4rem;
+  font: 1rem/2rem 'sans-serlf';
+  text-align: center;
+}
+
+
+.login-form>button,.sign-form>button {
+  background-color: #00aeff;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+}
+.login>.tip,.signin>.cancel{
+  font-size: .7rem;
+  text-align: center;
+  margin-top: 3rem;
+  text-decoration: underline;
+  color: #00aeff;
+}
+
+.login>.tip.alert,.signin>.tip.alert{
+  margin: 1rem auto;
+  color: red;
+}
+
+.signin>.tip{
+  font-size: .8rem;
+  text-align: center;
+  margin-top: 3rem;
+  color: rgb(58, 57, 57);
+}
+
+
+.p-header>.logo{
+  margin:2rem  auto;
+}
+.p-username{
+  text-align: center;
+}
+.p-username>span{
+  margin:0 1rem;
+  color: #00aeff;
+  font:bold 1.3rem/1 'sans-serlf';
+}
+
+.p-func {
+  width: 100%;
+  margin: 1rem auto;
+  padding: 0 .8rem;
+  text-align: center;
+  z-index: 1000;
+  background-color: rgb(245, 245, 245);
+}
+
+.p-func>a{
+  display: block;
+}
+
+.p-func a+a{
+  border-top: .1rem solid #fff;
+}
+
+.p-func a>img {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.p-func a>h6 {
+  font-size: 1.6rem;
+}
+
+
+
+
+.person-info>.p-control{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+.p-control>button{
+  width: 100%;
+  font: 1rem/2.1rem 'sans-serlf';
+  outline: none;
+  border:.1rem solid rgb(228, 17, 17);
+  color: #fff;
+  background-color: rgb(211, 5, 5);
+}

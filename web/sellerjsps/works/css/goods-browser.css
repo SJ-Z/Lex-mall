@@ -1,0 +1,168 @@
+/*
+<!--css document for manager-goods html-->
+<!--yangyuhao group,by denghuan-->*/
+html{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+button{
+	outline: none;
+}
+/* ****************以下是搜索栏的样式*************** */
+.search{
+	display: block;
+	height: 40px;
+	width: 300px;
+	border-radius: 10px;
+	margin: auto;
+	background-color: #6699cc;
+	margin-top: 30px;
+}
+
+#search,#searchbtn{
+	height: 100%;
+	outline: none;
+	border: none;
+}
+
+#search{
+	background-color: #fff;
+	border: 1px solid #6699cc;
+}
+
+#searchbtn{
+	color: #fff;
+}
+
+#search:focus{
+	border: 1px rgb(106,193,233) solid;
+}
+
+
+/* **********************以下是商品展示栏的样式***************** */
+.goods{
+	display: block;
+	width: 300px;
+	height: 200px;
+	border-radius: 8px;
+	border: 1px #000 solid;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.goods form{
+	width: 100%;
+	height: 100%;
+}
+
+/* 各个框的布局 */
+input:disabled,
+textarea:disabled{
+	background-color: #fff;
+}
+
+.top{
+	height: 15%;
+	width: 100%;
+	text-align: center;
+	font-size: 16px;
+	border-bottom: 1px solid #000;
+}
+.goods-photo{
+	width: 30%;
+	height: 70%;
+	padding-top: 4px;
+	padding-left: 4px;
+	border-right:1px #000 solid;
+}
+.goods-name,
+.goods-category,
+.goods-price,
+.goods-sales,
+.goods-store{
+	width: 70%;
+	height: 10%;
+	font-size: 12px;
+	border-radius: 4px;
+	border: 1px #fff solid;
+}
+.goods-description{
+	width: 70%;
+	height: 20%;
+	padding: 1px;
+	font-size: 12px;
+	border-radius: 4px;
+	border: 1px #fff solid;
+}
+.bottom{
+	width: 100%;
+	height: 15%;
+	padding-left: 40px;
+	padding-right: 40px;
+	border-top: 1px solid #000;
+}
+
+.top label,
+#goods-id{
+	height: 100%;
+	font-size: 1.4em;
+}
+
+#description{
+	height: 100%;
+}
+ .goods label,
+ .goods input,
+ .goods textarea{
+	height: 100%;
+}
+.goods label{
+	width: 20%;
+	float: left;
+	text-align: center;
+}
+.goods input{
+	width: 80%;
+	float: left;
+	border: none;
+}
+.goods textarea{
+	width: 80%;
+	border: none;
+}
+
+/* 结束布局 */
+
+/* bottom部分的样式 */
+#delete ,#edit{
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+}
+#edit{
+	margin-right: 10px;
+}
+
+a:link {
+	font-size: 16px;
+	color: #6699cc;
+	text-decoration: none;
+}
+a:visited {
+	font-size: 16px;
+	color: #00aeff;
+	text-decoration: none;
+}
+a:hover {
+	font-size: 16px;
+	color: slateblue;
+	text-decoration: none;
+}

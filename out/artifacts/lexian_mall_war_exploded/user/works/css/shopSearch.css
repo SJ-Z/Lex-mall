@@ -1,0 +1,61 @@
+html {
+  font-size: 20px;
+}
+
+body {
+  overflow: hidden;
+  height: 100vh;
+}
+
+/* 设置滚动条宽度 */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.container {
+  padding-top: 3px;
+  position: relative;
+  width: 18.75rem;
+  height: 100%;
+  background-color: rgb(242, 242, 242);
+  overflow: auto;
+}
+
+.shop-list{
+  background: #fff;
+}
+
+.shop-area {
+  height: 4.5rem;
+  padding: .2rem;
+  margin: .1rem;
+  overflow: hidden;
+  box-sizing: border-box;
+  background-color: rgba(248, 248, 248, 0.514);
+}
+
+
+.shop-msg {
+  width: 17rem;
+}
+.shop-msg p {
+  margin: .2rem 0;
+}
+
+.shop-msg .like{
+  float: right;
+  font: .6rem/1.6rem 'sans-serlf';
+  color: rgb(170, 170, 170);
+}
+.shop-name {
+  height: 1.6rem;
+  font: .9rem/1.6rem 'sans-serlf';
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #0198df;
+}
+.shop-addr{
+  height: 2rem;
+  font: .6rem/1rem 'sans-serlf';
+  color: rgb(170, 170, 170);
+}

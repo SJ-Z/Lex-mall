@@ -1,0 +1,69 @@
+body{
+    background-image: url('../../res/img/3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#pic1{
+    position: absolute;
+    margin-top: 5%;
+    float: left;
+    z-index: 1;
+}
+#pic2{
+    margin-top: 20%;
+    float: left;
+    position: absolute;
+    z-index: 1;
+}
+.resetPwd{
+    height: 250px;
+    width: 350px;
+    border-radius: 6px;
+    float: right;
+    margin-top: 5%;
+    margin-right: 3%;
+    background-color: #ffffff;
+    z-index: 3;
+    -webkit-box-shadow: 1px 1px 2px #fff;
+    -moz-box-shadow: 1px 1px 2px #fff;
+    box-shadow:  1px 1px 2px #fff;
+}
+#top{
+    display: block;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.password label{
+    font-size: 22px;
+    height: 100%;
+}
+.password{
+    display: block;
+    margin: 15px;
+    height: 40px;
+
+}
+input{
+    height: 100%;
+    border-radius: 6px;
+    border: 1px gray solid;
+}
+button{
+    display: block;
+    width: 80px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: #6699cc;
+    margin: auto;
+    color: #ffffff;
+    font-size: 20px;
+}
+button:hover{
+    background-color:rgb(106,193,233);
+}
+input:focus{
+    border: 1px #6699cc solid;
+}
+

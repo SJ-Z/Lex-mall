@@ -1,0 +1,32 @@
+.m-typeList {
+  margin-top: 0.8rem;
+}
+
+.m-typeList h2 {
+  background: url('../../res/static/find_title.png') no-repeat;
+  background-position: 20%;
+  background-size: 100% 100%;
+}
+
+.nav-type {
+  justify-content: flex-start;
+  background-color: #fff;
+  padding: .5rem .2rem .5rem;
+  align-content: space-around;
+}
+
+.nav-type>li {
+  width: 3.5rem;
+  height: 3.5rem;
+  text-align: center;
+}
+
+.nav-type>li>a>img {
+  width: 2.2rem;
+  height: 2.2rem;
+}
+
+.nav-type>li>a>h3 {
+  font-size: .6rem;
+  color: #000;
+}

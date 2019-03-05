@@ -1,0 +1,105 @@
+html{
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  max-width: 500px;
+  min-width: 320px;
+  background-color: rgb(247, 247, 247);
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height:3rem;
+  background-color: #01a4f0;
+  color: #fff;
+  z-index: 1;
+}
+header>h1{
+  text-align: center;
+  font-size: 1.3rem;
+  line-height: 3rem;
+}
+.good-list{
+  position: relative;
+  width: 17rem;
+  margin: 3.5rem auto 5rem;
+}
+.bill-item{
+  overflow: hidden;
+  padding: .5rem;
+  margin: .6rem 0;
+  border-radius: .6rem;
+  background-color: #fff;  
+}
+.seller{
+  color: #01a4f0;
+  margin: .2rem .2rem .6rem;
+  font: .8rem/1.2rem 'sans-serlf';
+}
+.good-area{
+  margin:.3rem 0 0;
+}
+.good-area>img{
+  float: left;
+  width: 5rem;
+}
+.good-msg{
+  float: right;
+  width: 10rem;
+}
+.good-name{
+  font: .8rem/1.2rem 'sans-serlf';
+}
+.good-price{
+  font: .8rem/1.2rem 'sans-serlf';
+  color: #01a4f0;
+}
+.count{
+  float: left;
+  width: 3rem;
+  height: 1.2rem;
+  border-radius: .1rem;
+  font: .8rem/1.2rem 'sans-serlf';
+  color: rgb(194, 192, 192);
+}
+.count button{
+  border:none;
+  outline: none;
+}
+.delete-btn{
+  float: left;
+  margin-left: 2rem;
+  height: 1.2rem;
+  width: 1.2rem;
+  background: url("../../res/icon_user/delete.svg") center no-repeat;
+  background-size: 100%,100%;
+}
+/* 结算菜单栏 */
+.pay-control{
+  background-color: #fff;
+}
+
+.money{
+  float: right;
+  font: .9rem/2.4rem 'sans-serlf';
+  color: #01a4f0;
+}
+.z-active,
+.z-active::before,
+.z-active::after{
+  color: #01a4f0;;
+}
+.pay-control .pay{
+  float: right;
+  width: 4rem;
+  height: 2rem;
+  border-radius: 1rem;
+  font: .9rem/2rem 'sans-serlf';
+  margin: .2rem .3rem;
+  color: #fff;
+  background-color: #01a4f0;;
+}

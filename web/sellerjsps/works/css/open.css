@@ -1,0 +1,39 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+table{
+    width: 100%;
+    height: 100%;
+
+}
+tr{
+    width: 100%;
+}
+#tr1{
+    height: 15%;
+    overflow-y: hidden;
+}
+#tr2{
+    height: 85%;
+}
+#left{
+    height: 100%;
+    width: 20%;
+}
+#right{
+    height: 100%;
+    width: 80%;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+.top{
+    height: 91px;
+}

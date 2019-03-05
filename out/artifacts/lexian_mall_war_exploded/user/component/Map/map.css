@@ -1,0 +1,57 @@
+/* 定位功能样式 */
+.m-map {
+  margin: .8rem 0 .4rem;
+  padding: 1rem .5rem .5rem;
+}
+
+.m-map h2 {
+  background: url('../../res/static/map_title.png') no-repeat;
+  background-position: 20%;
+  background-size: 100% 100%;
+}
+
+
+.map-msg .m-position {
+  color: rgb(64, 67, 114);
+  font-size: .8rem;
+}
+
+.map-tip {
+  font-size: .6rem;
+  color: rgb(189, 184, 184);
+}
+
+.link {
+  text-decoration-line: underline;
+}
+
+.map-form {
+  width: 17rem;
+  margin: .2rem auto;
+  height: 1.8rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  background-color: rgb(166, 166, 252);
+  border-color: rgb(166, 166, 252);
+}
+
+.map-form>input {
+  flex-grow: 1;
+  width: 13.5rem;
+  padding: 0 .7rem;
+  height: 1.8rem;
+  outline: none;
+  border:none;
+  font-size: .6rem;
+}
+.map-form>input::-webkit-input-placeholder {
+  color: rgb(189, 184, 184);
+}
+.map-form>button {
+  background-color: rgb(166, 166, 252);
+  width: 3rem;
+  color: #fff;
+  outline: none;
+  border:none;
+  font-size: .8rem;
+}

@@ -1,0 +1,41 @@
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #6699cc;
+}
+
+img{
+    position: absolute;
+    display: block;
+    margin-top: 20px;
+    margin-left: 20%;
+}
+
+/* a */
+a:link {
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+a:visited {
+    font-size: 20px;
+    color: #00a3ff;
+    text-decoration: none;
+}
+a:hover {
+    font-size: 20px;
+    color: slateblue;
+    text-decoration: none;
+}
+div{
+    position: absolute;
+    bottom: 10px;
+    color: #ffffff;
+    font-size: 20px;
+}

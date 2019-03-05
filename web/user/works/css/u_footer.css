@@ -1,0 +1,27 @@
+/* 底部菜单导航样式 */
+
+.nav-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2.6rem;
+    width: 100%;
+    padding: 0 .8rem;
+    text-align: center;
+    z-index: 1003;
+    background-color: #fff;
+}
+
+.nav-footer>span {
+    display: inline-block;
+}
+
+.nav-footer>span>img {
+    width: 1.1rem;
+    height: 1.1rem;
+}
+
+.nav-footer>span>h6 {
+    font-size: .6rem;
+}

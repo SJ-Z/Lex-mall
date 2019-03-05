@@ -1,0 +1,155 @@
+/*css document for register html*/
+html{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background-image: url(../../res/img/007.jpg);
+	background-size:cover;
+}
+span{
+	font-size: 12px;
+	color:firebrick;
+	width: 25%;
+	float: right;
+}
+
+.register-logo
+{
+	position: absolute;
+	margin-top:5%;
+	z-index: -2;
+}
+
+.register-slogen{
+	position: absolute;
+	margin-top: 20%;
+	z-index: -1;
+}
+.register{
+	height: 80%;
+	width: 40%;
+	margin-top: 4%;
+	margin-right: 4%;
+	background-color: #ffffff;
+	border-radius: 8px;
+}
+.top{
+	margin-top: 2%;
+	margin-left: 10%;
+}
+#register-c{
+	font-size: 30px;
+	border-right: 2px solid #00aeff;
+}
+#register-e{
+	font-size: 20px;
+}
+form{
+	display: block;
+	margin: auto;
+	width: 90%;
+	height: 80%;
+	margin-top: 4%;
+	font-size: 18px;
+
+}
+.managerdiv{
+	width: 70%;
+	border: 1px solid gray;
+	border-radius: 4px;
+	height: 8%;
+	margin-bottom: 2%;
+}
+
+.manager-div{
+	width: 90%;
+	height: 8%;
+	border: 1px solid gray;
+	border-radius: 4px;
+	margin-bottom: 2%;
+}
+
+.manager-vertification{
+	width: 50%;
+	height: 8%;
+	margin: auto;
+	margin-bottom: 5%;
+}
+.manager-vertification input,.manager-vertification img{
+	vertical-align: middle;
+}
+
+.manager-vertification input{
+	height: 100%;
+	border:1px solid gray;
+	border-radius: 4px;
+}
+.managerdiv label{
+	height: 100%;
+	text-align: center;
+	border-right: 1px solid gray;
+}
+.managerdiv input{
+	height: 100%;
+	width: 70%;
+	border: none;
+}
+
+.manager-div label{
+	height: 100%;
+	width: 30%;
+	float: left;
+	text-align: center;
+	border-right: 1px solid gray;
+}
+.manager-div input{
+	height: 100%;
+	width: 77%;
+	border: none;
+}
+
+.manager-submit{
+	width: 50%;
+	height: 10%;
+	border-top: 1px dotted #00aeff;
+	padding-top: 2%;
+	display: block;
+	margin: auto;
+	color: #ffffff;
+}
+#submit,#reset{
+	width: 45%;
+	height: 100%;
+	font-size: 20px;
+	background-color: #00aeff;
+	border-radius: 4px;
+}
+
+#submit:hover,#reset:hover{
+	background-color: rgb(106,193,233);
+}
+
+.bottom{
+	margin-right: 5%;
+}
+a:link {
+	font-size: 16px;
+	color: #00aeff;
+	text-decoration: none;
+}
+a:visited {
+	font-size: 16px;
+	color: #00a3ff;
+	text-decoration: none;
+}
+a:hover {
+	font-size: 16px;
+	color: slateblue;
+	text-decoration: none;
+}

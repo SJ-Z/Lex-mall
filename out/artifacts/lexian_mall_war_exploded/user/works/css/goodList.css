@@ -1,0 +1,224 @@
+html {
+  font-size: 20px;
+}
+
+body {
+  overflow: hidden;
+  height: 100vh;
+}
+
+/* 设置滚动条宽度 */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.container {
+  padding-top: 3px;
+  position: relative;
+  width: 18.75rem;
+  height: 100%;
+  background-color: rgb(242, 242, 242);
+  overflow: hidden;
+}
+
+.left-side {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  overflow: auto;
+  width: 4.2rem;
+  background-color: #fff;
+}
+
+.type-nav>li {
+  position: relative;
+  padding: .6rem .4rem;
+  border: .2rem solid transparent;
+  text-align: center;
+  font: .7rem/2 'sans-serlf';
+}
+
+.type-nav>.z-active {
+  border-left: .2rem solid rgb(67, 115, 247);
+  background-color: rgb(242, 242, 242);
+}
+
+/* 右侧主体 */
+.right-side {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 14.5rem;
+  padding: .5rem .5rem;
+  overflow: auto;
+}
+
+.side-func-area {
+  position: relative;
+  padding: .5rem;
+  border-radius: 1rem;
+  background: #fff;
+  margin: 0 0 .6rem;
+}
+
+.side-func-area>h2 {
+  position: relative;
+  font: 1.1rem/1.1 'sans-serlf';
+}
+
+.side-func-area>h2::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0rem;
+  left: 5rem;
+  width: 0;
+  height: 0;
+  border: .6rem solid transparent;
+  border-left-color: #A286BD;
+}
+
+.sub-type-nav {
+  width: 100%;
+  padding: .2rem;
+  border-radius: .5rem;
+  justify-content: flex-start;
+  align-content: flex-start;
+  background-color: #fff;
+}
+
+.sub-type-nav>li {
+  padding: .1rem .3rem;
+  margin: .1rem .1rem;
+  border: .1rem solid rgb(67, 115, 247);
+  border-radius: 0.9rem;
+  font-size: .7rem;
+  flex: 0 0 auto;
+}
+
+.sub-type-nav>.z-active {
+  color: #fff;
+  background-color: rgb(67, 115, 247);
+}
+
+.screen-nav {
+  margin-top: .3rem;
+  border-width: .1rem 0;
+  height: 1.6rem;
+  font: .7rem/1.2 'sans=serlf';
+}
+
+.screen-nav>.z-active {
+  color: rgb(164, 185, 245);
+}
+
+.good-list {
+  font-size: 0;
+  line-height: 0;
+}
+
+.good-area {
+  height: 4.5rem;
+  padding: .2rem;
+  margin: .1rem;
+  overflow: hidden;
+  box-sizing: border-box;
+  background-color: rgba(248, 248, 248, 0.514);
+}
+
+.good-area>img {
+  float: left;
+  width: 4rem;
+  height: 4rem;
+}
+.good-msg-base {
+  width: 7.5rem;
+  float: right;
+}
+.good-msg-base p {
+  margin: .2rem 0;
+}
+
+.good-name {
+  height: 1.6rem;
+  font: .7rem/1.2 'sans-serlf';
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.good-price {
+  width: 100%;
+  font: .7rem/1.1rem 'sans-serlf';
+}
+
+.good-like {
+  float: right;
+  margin-right: .2rem;
+  font: .6rem/1.1rem 'sans-serlf';
+  color: rgb(170, 170, 170);
+}
+
+.good-shop {
+  width: 100%;
+  font: .5rem/1.2 'sans-serlf';
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.good-details {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 16rem;
+  border-radius: .4rem;
+  padding: .5rem;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  z-index: 1000;
+}
+
+.good-details img {
+  width: 100%;
+}
+
+.good-details button {
+  width: 100;
+  font: .9rem/1.5rem 'sans-serlf';
+  border-radius: .2rem;
+  color: #fff;
+}
+
+.good-msg-details {
+  border-top: .05rem solid rgb(164, 185, 245);
+}
+.good-msg-details>.good-name{
+  font-size: 1rem;
+}
+
+.good-msg-details .good-shop,
+.good-msg-details .distance {
+  font-size: .7rem;
+}
+
+.describe {
+  border-top: .05rem solid rgb(164, 185, 245);
+  font-size: .8rem;
+}
+
+.tolike{
+  width: 100%;
+  background-color: rgb(245, 78, 147);
+}
+
+.tocart {
+  width: 100%;
+  background-color: rgb(104, 141, 245);
+}
+
+.leave {
+  width: 100%;
+  background-color: rgb(154, 94, 211);
+}

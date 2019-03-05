@@ -1,0 +1,72 @@
+
+html{
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  max-width: 500px;
+  min-width: 320px;
+  background-color: rgb(247, 247, 247);
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height:3rem;
+  background-color: #00aeff;
+  color: #fff;
+}
+header>h1{
+  text-align: center;
+  font-size: 1.3rem;
+  line-height: 3rem;
+}
+
+.m-body{
+  position: relative;
+  margin-top: 3.5rem;
+}
+.m-func-area{
+  position: relative;
+  background: #fff;
+  width: 18.75rem;
+  margin-top: 1rem;
+}
+
+.m-func-area .tip{
+  height: 1.1rem;
+  text-align:center;
+  font:.8rem/1.1rem 'sans-serlf';
+  color: rgb(170, 170, 170);
+}
+
+.all-msg{
+  border-radius: .5rem;
+  margin: auto;
+  padding: .5rem .2rem .2rem;
+}
+
+.msg-item{
+  padding: .4rem;
+  border-radius: .8rem;
+  overflow: hidden;
+  background-color: #f8f8f8;
+  margin: .2rem auto;
+}
+.msg-item .msg-source{
+  font-size: .9rem;
+  border-bottom: .1rem solid rgb(221, 221, 221); 
+}
+.msg-detail{
+  padding: .4rem;
+  font: .7rem/1.1 'sans-serlf';
+}
+.msg-item a{
+  display: block;
+  text-align:right;
+  margin: .8rem 1rem 0;
+  font: .8rem/1rem 'sans-serlf';
+  color: rgb(204, 203, 203);
+}

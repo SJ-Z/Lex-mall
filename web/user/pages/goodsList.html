@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> lexian-mall-goodList </title>
+  <link rel="stylesheet" href="../common/css/base.css">
+  <link rel="stylesheet" href="../common/css/init.css">
+  <link rel="stylesheet" href="../works/css/goodList.css">
+</head>
+
+<body>
+  <div class="container">
+    <!-- 侧边栏,一级分类 -->
+    <ul class="g-aside left-side type-nav"></ul>
+
+    <div class="g-aside right-side">
+      <!-- 页面加载后发起请求动态渲染 -->
+      <!-- 二级分离列表 -->
+      <div class="side-func-area">
+        <h2>详细分类</h2>
+        <ul class="flex sub-type-nav">
+        </ul>
+      </div>
+
+      <!-- 商品详情 -->
+      <div class="side-func-area">
+        <h2>找到好货</h2>
+        <!-- 筛选菜单 -->
+        <div class="flex screen-nav border">
+          <button class="z-active">收藏最多</button>|
+          <button>价格最低</button>|
+          <button>距离最近</button>
+        </div>
+        <!-- 商品列表 -->
+        <ul class="good-list">
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="mask none"></div>
+  <div class="good-details none">
+
+  </div>
+
+  <script src="../common/js/myzepto.js"></script>
+  <script type="module" src="../works/js/goodList.js"></script>
+
+</body>
+
+</html>

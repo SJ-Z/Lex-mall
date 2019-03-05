@@ -1,0 +1,88 @@
+html{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+body
+{
+	display: block;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+
+/* 弹出层样式表 */
+
+#modify{
+	width: 600px;
+	height: 450px;
+	padding-top: 30px;
+	text-align: center;
+	border-radius: 8px;
+	background-color: #fff; 
+	font-size: 20px;
+    margin: auto;
+	margin-top: 10px;
+	border: 2px solid #6699cc;
+
+}
+#modify-title{
+	font-size: 40px;
+}
+
+#modify input{
+	height: 40px;
+	border-radius: 4px;
+	border:1px gray solid;
+	margin-top: 10px;
+}
+
+#modify label{
+	height: 40px;
+}
+
+#modify input:focus{
+	border:1px #00aeff solid;
+}
+#modify-opentime,#modify-closetime{
+	width: 100px;
+}
+
+.modify-bottom{
+	height: 40px;
+	width: 200px;
+	display: inline-block;
+	border-radius: 8px;
+	margin-top: 30px;
+}
+
+#save{
+	margin: auto;
+	height: 100%;
+	width: 100px;
+	border-radius: 6px;
+	background-color: #6699cc;
+	color: #ffffff;
+	font-size: 25px;
+}
+
+#save:hover{
+    background-color: rgb(106,193,233);
+}
+
+a:link {
+	font-size: 16px;
+	color: #6699cc;
+	text-decoration: none;
+}
+a:visited {
+	font-size: 16px;
+	color: #00aeff;
+	text-decoration: none;
+}
+a:hover {
+	font-size: 16px;
+	color: slateblue;
+	text-decoration: none;
+}

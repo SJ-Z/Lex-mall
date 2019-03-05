@@ -1,0 +1,59 @@
+/* CSS Document */
+
+html{
+	height: 100%;
+}
+
+body{
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+.sidebar{
+	height: 100%;
+	border-radius: 6px;
+	color: #ffffff;
+	border: 2px #6699cc solid;
+}
+span,ul,li,a{
+	display: block;
+	width: 100%;
+}
+
+.tab1{
+	text-align: left;
+}
+.tab2 li{
+	height: 30px;
+}
+span{
+	height: 40px;
+	background-color: #6699cc;
+	font-size: 25px;
+	border-top: 1px solid #fff;
+}
+a{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background-color: rgb(106,193,233);
+	font-size: 20px;
+	border-top: 1px solid #fff;
+}
+
+span:hover{
+	cursor: pointer;
+}
+a:hover{
+	background-color: rgb(141, 218, 214);
+}
+.tab2{
+	display: none;
+}
+
+img{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	display: none;
+}

@@ -1,0 +1,235 @@
+/* 定义app */
+
+html {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    max-width: 500px;
+    min-width: 320px;
+    background-color: rgb(247, 247, 247);
+}
+
+
+/* header */
+
+.g-header {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 2.6rem;
+    padding: 0 1rem 0 .6rem;
+    background-color: #00aeff;
+}
+
+.h-logo {
+    width: 2rem;
+    height: 2rem;
+    background: url(../../res/static/logo.png);
+    flex-shrink: 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.h-search {
+    width: 11rem;
+    height: 1.5rem;
+    overflow: hidden;
+    border-radius: .3rem .3rem;
+    background-color: #0198df;
+}
+
+.h-search>input {
+    background-color: #0198df;
+    width: 9rem;
+    border: none;
+    outline: none;
+    font: .6rem/1.5rem sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.h-search>input::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.h-search>button {
+    width: .9rem;
+    height: .9rem;
+    background: url("../../res/icon_user/search.svg");
+    background-size: 100% 100%;
+}
+
+.h-avatar {
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 50%;
+    background-color: #fff;
+    flex-shrink: 0;
+}
+.h-avatar img{
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+/* 主体 */
+
+.m-body {
+    margin: auto;
+    position: absolute;
+    top: 2.8rem;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+
+.m-func-area{
+    position: relative;
+    background: #fff;
+    width: 18.75rem;
+}
+
+.m-func-area>h2{
+    position: absolute;
+    top: -.5rem;
+    left: .2rem;
+    height: 1.1rem;
+    width: 4rem;
+}
+.m-func-area>h2::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0rem;
+    right: -1rem;
+    width: 0;
+    height: 0;
+    border: .5rem solid transparent;
+    border-left-color: #A286BD;
+}
+
+/* 推荐列表 */
+.m-recommend{
+    margin: .8rem 0 2.4rem;
+    padding: 1rem .5rem .5rem;
+}
+
+.m-recommend h2 {
+    background: url('../../res/static/guess_title.png') no-repeat;
+    background-position: 20%;
+    background-size: 100% 100%;
+}
+
+.good-list {
+    font-size: 0;
+    line-height: 0;
+}
+
+.good-area {
+    height: 4.5rem;
+    padding: .2rem;
+    margin: .1rem;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.good-area>img {
+    float: left;
+    width: 4rem;
+    height: 4rem;
+}
+.good-msg-base {
+    width: 12.5rem;
+    float: right;
+}
+.good-msg-base p {
+    margin: .2rem 0;
+}
+
+.good-name {
+    height: 1.6rem;
+    font: .7rem/1.2 'sans-serlf';
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.good-price {
+    width: 100%;
+    font: .7rem/1.1rem 'sans-serlf';
+}
+
+.good-like {
+    float: right;
+    margin-right: .2rem;
+    font: .6rem/1.1rem 'sans-serlf';
+    color: rgb(170, 170, 170);
+}
+
+.good-shop {
+    width: 100%;
+    font: .5rem/1.2 'sans-serlf';
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.good-details {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 16rem;
+    border-radius: .4rem;
+    padding: .5rem;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    z-index: 1000;
+}
+
+.good-details img {
+    width: 100%;
+}
+
+.good-details button {
+    width: 100;
+    font: .9rem/1.5rem 'sans-serlf';
+    border-radius: .2rem;
+    color: #fff;
+}
+
+.good-msg-details {
+    border-top: .05rem solid rgb(164, 185, 245);
+}
+.good-msg-details>.good-name{
+    font-size: 1rem;
+}
+
+.good-msg-details .good-shop,
+.good-msg-details .distance {
+    font-size: .7rem;
+}
+
+.describe {
+    border-top: .05rem solid rgb(164, 185, 245);
+    font-size: .8rem;
+}
+
+.tolike{
+    width: 100%;
+    background-color: rgb(245, 78, 147);
+}
+
+.tocart {
+    width: 100%;
+    background-color: rgb(104, 141, 245);
+}
+
+.leave {
+    width: 100%;
+    background-color: rgb(154, 94, 211);
+}
+
+
+
+

@@ -1,0 +1,75 @@
+html{
+    width: 100%;
+    margin: 0;
+}
+body{
+    width: 100%;
+    margin: 0;
+}
+
+.search{
+	display: block;
+	height: 40px;
+	width: 300px;
+	border-radius: 6px;
+	margin: auto;
+	background-color: #6699cc;
+}
+
+#search{
+    height: 100%;
+    width: 80%;
+	outline: none;
+    border: none;
+    float: left;
+    background-color: #fff;
+    border: 1px solid #6699cc;
+}
+
+#searchbtn{
+    width: 20%;
+    height: 100%;
+    color: #fff;
+    font-size: 22px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.selection{
+    width: 550px;
+    margin: auto;
+}
+select{
+    height: 40px;
+    text-align: center;
+    text-align-last: center;
+    margin-top: 10px;
+}
+#selectionbtn{
+    height: 40px;
+    width: 100px;
+    border-radius: 6px;
+    background-color: #6699cc;
+    color: #ffffff;
+}
+
+#selectionbtn:hover,
+#searchbtn:hover{
+    background-color: rgb(106, 193, 233);
+}
+
+a:link {
+    font-size: 16px;
+    color: #6699cc;
+    text-decoration: none;
+}
+a:visited {
+    font-size: 16px;
+    color: #00aeff;
+    text-decoration: none;
+}
+a:hover {
+    font-size: 16px;
+    color: slateblue;
+    text-decoration: none;
+}

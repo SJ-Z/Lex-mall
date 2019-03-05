@@ -1,0 +1,33 @@
+html{
+  font-size: 20px;
+}
+
+header{
+  background-color: #fff;
+  padding: .2rem .9rem;
+  margin-bottom: .2rem;
+}
+
+.name{
+  font: 1.2rem/2rem "sans-serlf";
+}
+.like-btn{
+  float: right;
+  width: 3rem;
+  height: 1.8rem;
+  font-size: .8rem;
+  border:.1rem solid #00aeff;
+  border-radius: .9rem;
+  margin: .2rem;
+}
+.like-btn.z-active{
+  background-color: #00aeff;
+  color: #fff;
+}
+.shop-msg{
+  font-size: .7rem;
+}
+.s-detail{
+  float: left;
+  margin: .2rem;
+}

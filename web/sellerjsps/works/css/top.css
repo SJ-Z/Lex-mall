@@ -1,0 +1,42 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #6699cc;
+    color: #fff;
+}
+
+button{
+    width: 60px;
+    height: 40px;
+    display: inline-block;
+}
+
+.btn{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+img{
+    position: absolute;
+    display: block;
+    height: 90px;
+    margin-left: 25%;
+}
+p{
+    float: right;
+    font-size: 20px;
+}
+.btn button{
+    float: right;
+    margin-top: 4.5%;
+}
+.btn button:hover{
+    color: slateblue;
+}
+a:hover{
+    color:slateblue;
+}

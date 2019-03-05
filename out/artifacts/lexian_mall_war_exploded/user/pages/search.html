@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title> lexian-mall search </title>
+        <link rel="stylesheet" href="../common/css/base.css">
+        <link rel="stylesheet" href="../common/css/init.css">
+        <link rel="stylesheet" href="../works/css/u_footer.css">
+        <link rel="stylesheet" href="../works/css/like.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+                <div class="control">
+                    <button class="z-active">商品</button>
+                    <button>店铺</button>
+                </div>
+            </header>
+
+            <!-- 视口容器，内部内容左右滑动 -->
+            <div class="frame-view">
+                <!-- 搜索的商品 -->
+                <iframe class="iframe-like1" src="goodsSearch.html" frameborder="0"></iframe>
+                <iframe class="iframe-like2" src="shopSearch.html" frameborder="0"></iframe>
+            </div>
+        </div>
+        <!-- 底部菜单栏，可以用于主要页面的跳转 -->
+        <footer class="flex nav-footer border ">
+            <span>
+                <img src="../res/icon_user/like.svg">
+                <h6>收藏</h6>
+            </span>
+            <span>
+                <img src="../res/icon_user/msg.svg">
+                <h6>消息</h6>
+            </span>
+            <span>
+                <img src="../res/icon_user/home.svg">
+                <h6>首页</h6>
+            </span>
+            <span>
+                <img src="../res/icon_user/bill.svg">
+                <h6>订单</h6>
+            </span>
+            <span>
+                <img src="../res/icon_user/cart.svg">
+                <h6>购物车</h6>
+            </span>
+        </footer>
+
+        <script src="../common/js/myzepto.js"></script>
+        <!-- 由于内容和like一样，所以就不复制粘贴了 -->
+        <script type="module" src="../works/js/like.js"></script>
+    </body>
+
+</html>

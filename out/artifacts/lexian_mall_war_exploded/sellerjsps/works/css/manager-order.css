@@ -1,0 +1,132 @@
+/*
+<!--css document for manager-order html-->
+<!--yangyuhao group,by denghuan-->*/
+
+html{
+    width: 100%;
+}
+body{
+    width: 100%;
+    text-align: center;
+}
+/* *******************搜索框的样式*********************** */
+.search{
+    height: 40px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+#search{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+     box-sizing: border-box;
+    -webkit-appearance: none;
+    outline: none;
+    width: 300px;
+    height: 100%;
+    vertical-align: middle;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border: 1px solid #6699cc;
+    font-size: 18px;
+}
+#searchbtn{
+    width: 80px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    vertical-align: middle;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-color: #6699cc;
+    color: #ffffff;
+    font-size: 20px;
+}
+#searchbtn:hover,
+#finish:hover,
+#searchbtn:hover{
+    background-color: rgb(106,193,233);
+}
+
+#finish,#nofinish{
+    height: 40px;
+    width: 120px;
+    vertical-align: middle;
+    outline: none;
+    background-color: #6699cc;
+    border: none;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+
+#order table{
+    padding-top: 0px;
+    margin: 0;
+    text-align: center;
+}
+
+.code,.time{
+    width: 20%;
+}
+
+.amount{
+    width: 10%;
+}
+
+.customer{
+    width: 20%;
+}
+
+.status{
+    width:10%;
+}
+
+
+#details{
+    display: none;
+}
+.details th,
+.details td{
+    border: 1px solid #000;
+}
+
+.details{
+    width: 100%;
+    text-align: center;
+}
+.sequence{
+    width: 10%;
+}
+.name{
+    width: 30%;
+}
+.unit{
+    width: 20%;
+}
+.number{
+    width: 10%;
+}
+.subtotal{
+    width: 20%;
+}
+
+a:link {
+    font-size: 16px;
+    color: #6699cc;
+    text-decoration: none;
+}
+a:visited {
+    font-size: 16px;
+    color: #00aeff;
+    text-decoration: none;
+}
+a:hover {
+    font-size: 16px;
+    color: slateblue;
+    text-decoration: none;
+}

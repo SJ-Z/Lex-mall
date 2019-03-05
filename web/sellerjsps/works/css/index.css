@@ -1,0 +1,132 @@
+/*
+css document for index html
+yangyuhao group,by denghuan
+*/
+body{
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+	background-image: url(../../res/img/3.jpg);
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#logo{
+	position: absolute;
+	margin-top: 5%;
+	z-index: 1;
+}
+
+#ad{
+	position: absolute;
+	margin-top: 20%;
+	z-index: 1;
+}
+
+.log_on{
+	height: 450px;
+	width: 350px;
+	margin-top: 80px;
+	margin-right: 80px;
+	border-radius: 6px;
+	background-color: #fff;
+}
+
+.top{
+	margin-top: 30px;
+	margin-left: 50px;
+}
+#logon-c{
+	font-size: 40px;
+	border-right: 2px #6699cc solid;
+}
+
+#logon-e{
+	font-size: 20px;
+}
+
+input{
+	height: 48px;
+	border: hidden;
+}
+
+.username img,
+.username input,
+.password img,
+.password input,
+.vertification img,
+.vertification input{
+	vertical-align: middle;
+}
+
+.username,
+.password,
+.vertification{
+	text-align: center;
+	margin-left:51px;
+	margin-right: 45px;
+	margin-top: 20px;
+}
+
+.username,
+.password,
+.vertification input
+{
+	border: 1px gray solid;
+	border-radius: 5px;
+}
+
+.vertification input{
+	border:1px gray solid;
+}
+
+.submit{
+	padding-top: 20px;
+	margin-top:10px;
+	margin-bottom: 15px;
+	text-align: center;
+	border-top: #6699cc 1px dotted;
+}
+
+.submit button{
+	width: 100px;
+	height: 38px;
+	margin-top: 1px;
+	border-radius: 8px;
+	background-color: #6699cc;
+	color: #ffffff;
+	font-size: 20px;
+}
+
+.submit button:hover{
+	background-color: #6dc2e9;
+}
+
+#remember-l{
+	display: block;
+	margin-top: 20px;
+	margin-left:51px;
+}
+#remember-l label,
+#remember{
+	vertical-align: middle;
+}
+#remember {
+	height: 20px;
+}
+
+a:link {
+	font-size: 16px;
+	color: #6699cc;
+	text-decoration: none;
+}
+a:visited {
+	font-size: 16px;
+	color: #00aeff;
+	text-decoration: none;
+}
+a:hover {
+	font-size: 16px;
+	color: slateblue;
+	text-decoration: none;
+}
